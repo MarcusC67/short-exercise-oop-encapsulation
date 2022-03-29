@@ -26,8 +26,6 @@ Use the following questions to guide your exploration and learning! 🗺
 
 - Run the `main` method on the `Main` class, what is it doing? What is being outputted to the console?  
 
-    Getters and Setters:
-
     Call methods contained in DodgyBankAccount class and do the following:
     Create a dodgy bank account
     Get the balance
