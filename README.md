@@ -24,11 +24,7 @@ four pillars of Object-Oriented Programming (OOP).
 
 Use the following questions to guide your exploration and learning! 🗺
 
-- Run the `main` method on the `Main` class, what is it doing? What is being outputted to the console?
-
-  
-    Create public MAIN class
-    Add subclass for bank account number assigned a number that will not change.  
+- Run the `main` method on the `Main` class, what is it doing? What is being outputted to the console?  
 
     Getters and Setters:
 
