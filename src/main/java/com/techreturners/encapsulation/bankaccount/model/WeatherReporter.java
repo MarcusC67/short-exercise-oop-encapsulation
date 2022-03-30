@@ -22,7 +22,7 @@ public class WeatherReporter {
     }
 
     // print message in particular format
-    public String print() {
+    public String runReport() {
         return MessageFormat.format("I am in {0} and it is {1}. {2}. The temperature in Fahrenheit is {3}.",
                 location,
                 getWeatherSymbol(),
@@ -31,12 +31,12 @@ public class WeatherReporter {
     }
 
     // calculate fahrenheit from celsius input
-    public double getFahrenheit() {
+    private double getFahrenheit() {
         return (9.0 / 5.0) * celsius + 32;
     }
 
     // if London, California or Cape Town return specific icon, for all others return a different icon
-    public String getWeatherSymbol() {
+    private String getWeatherSymbol() {
         if (location == "London") {
             return "🌦";
         } else if (location == "California") {
@@ -48,7 +48,7 @@ public class WeatherReporter {
     }
 
     // depending on celsius return string
-    public String howWeatherFeels() {
+    private String howWeatherFeels() {
         if (celsius > 30) {
             return "It's too hot 🥵!";
         } else if (celsius < 10) {
